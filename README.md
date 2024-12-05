@@ -1,2 +1,3 @@
 # NLP-Say_the_Same_Thing
-Playing the popular game "Say the same thing" with an NLP model
+The goal of this repository is to create a simple game involving playing "Say the same thing" with an NLP model. The premise of "Say the same thing" is that two people each come up with a word and say it at the same time. The goal of the players is to find a connection between the words and say the same word at the same time. For example if player A says apple and player B says autumn initially, the players would count to 3 and on 4 would both say what they think the other will say. If player A says apple pie (an apple dessert served during autumn) and player B says caramel apple (another apple dessert served during autumn), the players clearly don't win yet, but over time they will narrow down what can reasonably be said to connect the words until they say the same thing, winning the game. To do this, I will be implementing an LSTM for text classification.
+
